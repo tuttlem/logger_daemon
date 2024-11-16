@@ -1,0 +1,10 @@
+[package]
+name = "logger_daemon"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4"
+env_logger = "0.11.5"
+nix = { version = "0.29.0", features = ["process", "fs", "signal"] }
+signal-hook = "0.3"
